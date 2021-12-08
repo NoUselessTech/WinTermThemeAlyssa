@@ -1,0 +1,88 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "profiles": 
+    {
+      "defaults": {
+        "colorScheme": "Aurelia",
+        "backgroundImage": "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "backgroundImageOpacity": 0.2
+      },
+        "list": 
+        [
+            {
+                "commandline": "powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]
+    },
+    "schemes": 
+    [
+      {
+        "name": "Aurelia",
+        "background": "#1a1a1a",
+        "black": "#000000",
+        "blue": "#579BD5",
+        "brightBlack": "#797979",
+        "brightBlue": "#9CDCFE",
+        "brightCyan": "#2BC4E2",
+        "brightGreen": "#1AD69C",
+        "brightPurple": "#975EAB",
+        "brightRed": "#EB2A88",
+        "brightWhite": "#EAEAEA",
+        "brightYellow": "#e9ad95",
+        "cyan": "#00B6D6",
+        "foreground": "#EA549F",
+        "green": "#4EC9B0",
+        "purple": "#714896",
+        "red": "#E92888",
+        "white": "#EAEAEA",
+        "yellow": "#CE9178"
+      }
+    ],
+    "theme": "dark"
+}
